@@ -8,6 +8,7 @@ function Header() {
     <Link to='/about'>About</Link>
     <Link to='/contentus'>Conten US</Link>
     <Link to='/login'>Login</Link>
+    <Link to='/table'>Table</Link>
     </div>
   )
 }

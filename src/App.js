@@ -4,6 +4,7 @@ import Home from './Components/Landing/Home';
 import About from './Components/Landing/About';
 import ContentUs from './Components/Landing/ContentUs';
 import Login from './Components/Landing/Login';
+import Table from './Components/Landing/Table';
 
 import Deshboard from './Components/Dashboard/Deshboard';
 import Attendance from './Components/Dashboard/Attendance';
@@ -22,6 +23,7 @@ function App() {
     <Route path='/about' element={<About/>}></Route>
     <Route path='/contentus' element={<ContentUs/>}></Route>
     <Route path='/login' element={<Login/>}></Route>
+    <Route path='/table' element={<Table/>}></Route>
     
     </Route>
 
