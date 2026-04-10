@@ -11,7 +11,7 @@ function Table(values) {
 
 
     return (
-        <Card style={{ width: "300px" }} hoverable>
+        <Card style={{ width: "300px" , background:"black"}} hoverable>
 
 
             <Form onFinish={handleSubmit}>

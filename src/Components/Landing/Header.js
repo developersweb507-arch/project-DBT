@@ -9,6 +9,8 @@ function Header() {
     <Link to='/contentus'>Conten US</Link>
     <Link to='/login'>Login</Link>
     <Link to='/table'>Table</Link>
+    <Link to='/pbstable'>SirTable</Link>
+    <Link to='/sirprovide'>PB SIR</Link>
     </div>
   )
 }
