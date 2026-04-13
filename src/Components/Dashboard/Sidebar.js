@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Sidebar.css'
 
 function Sidebar() {
   return (
-    <div style={{ border:'1px solid red', height:'100vh '}} >
+    <div className='side-div' >
 
 <li>  <Link to='/deshboard'>Attendance</Link></li>
 <li>  <Link to='/deshboard/report'>Report</Link></li>
-<li>  <Link to='/deshboard/payroll'>Payrol</Link></li>
+<li>  <Link to='/deshboard/payroll'>Payroll</Link></li>
 
     </div>
   )
